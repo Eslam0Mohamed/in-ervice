@@ -2,8 +2,12 @@
     display: flex;
     justify-content: center;
 } */
+html {
+    scroll-behavior: smooth;
+}
 .home{
-    background-color:#d1e3ff;
+    background-color:#9ec0f8;
+    height: 100vh;
 }
 .intro-text{
     color: #000000;
@@ -32,4 +36,7 @@ transition: 0.5s ease-in;
 .icon{
     /* color: burlywood; */
     font-size: 30px;
+}
+.providers{
+    background-color: #eeee;
 }
