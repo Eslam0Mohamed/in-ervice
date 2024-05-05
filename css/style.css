@@ -1,0 +1,35 @@
+/* .navbar-center{
+    display: flex;
+    justify-content: center;
+} */
+.home{
+    background-color:#d1e3ff;
+}
+.intro-text{
+    color: #000000;
+    font-weight: 400
+}
+.dashboard-data{
+background-color:#f8f9fa;
+transition: 0.5s ease-in;
+}
+.dashboard-data:hover{
+    background-color: orange;
+    transform: scale(1.1);
+}
+.dashboard-data .data-item{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.dashboard-data .data-item p{
+    font-size: 25px;
+}
+.dashboard-data .data-item span{
+    font-size: 40px;
+}
+.icon{
+    /* color: burlywood; */
+    font-size: 30px;
+}
