@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="ar">
+<html dir="ltr" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,127 +7,41 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    <title>لوحة التحكم </title>
+    <title>Dashboard</title>
 </head>
 <body>
 
-      <!-- start home  -->
-          <div class="dashboard  pt-5">
-            <div class="container-fluid">
-                <div class="title pt-2 me-3  fs-3 "  >
-                    <p>لوحة التحكم</p>
-                  </div>
-                 <div class="row  p-5 d-flex justify-content-around ">
-                    <div class="col-lg-2 col-md-6  p-3 m-3 text-center rounded-3 dashboard-data">
-                    <div class="data-item">
-                        <i class="fas fa-user icon"></i>
-                        <div class="text">
-                          <p>المستخدمين</p>
-                          <span class="">0</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 text-center  p-3 m-3 rounded-3 dashboard-data">
-                      <div class="data-item">
-                        <i class="fas fa-pen icon"></i>
-                        <div class="text">
-                          <p>المنشورات</p>
-                          <span>0</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 text-center p-3 m-3 rounded-3 dashboard-data">
-                      <div class="data-item ">
-                        <i class="fas fa-table icon"></i>
-                        <div class="text">
-                          <p>الخدمات</p>
-                          <span>0</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6  text-center p-3 m-3 rounded-3 dashboard-data" >
-                      <div class="data-item">
-                        <i class="fas fa-dollar icon"></i>
-                        <div class="text">
-                          <p>الارباح</p>
-                          <span>0</span>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-2 col-md-6 text-center p-3 m-3 rounded-3 dashboard-data">
-                    <div class="data-item "> 
-                      <i class="fas fa-users icon"></i>
-                      <div class="text">
-                        <p>مزودي الخدمات</p>
-                        <span>0</span>
-                      </div>
-                    </div>
-                </div>
-                </div>
-          </div>
-            </div>
-          </div>
-      <!-- end home  -->
-      <!-- start providers  -->
- <!-- <div class="providers "id="providers">
-        <div class="title pt-2 me-3  fs-3 "  >
-          <p>مزودي الخدمات </p>
-        </div>
-<div class="container">
 
-<div class="row d-flex justify-content-center pb-3">
-<div class="col-lg-3 col-md-4 d-flex justify-content-center mb-2" >
-  <div class="card " style="width: 18rem;">
-    <img src="images/plumber.jpg" class="card-img-top" alt="plumber">
-    <div class="card-body">
-      <h5 class="card-title">احمد عادل</h5>
-      <p class="card-text">سباك</p>
-    </div>
-  </div>
-</div>
-<div class="col-lg-3 col-md-4 d-flex justify-content-center mb-2">
-  <div class="card" style="width: 18rem;">
-    <img src="images/electrical.jpg" class="card-img-top" alt="كهربائي">
-    <div class="card-body">
-      <h5 class="card-title">يوسف محمود</h5>
-      <p class="card-text">كهربائي</p>
-    </div>
-  </div>
-</div>
-<div class="col-lg-3 col-md-4 d-flex justify-content-center mb-2">
-  <div class="card" style="width: 18rem;">
-    <img src="images/air.jpg" class="card-img-top" alt="فني تكييف">
-    <div class="card-body">
-      <h5 class="card-title">محمد منصور</h5>
-      <p class="card-text">فني تكييف </p>
-    </div>
-  </div>
-</div>
-<div class="col-lg-3 col-md-4 d-flex justify-content-center mb-2">
-  <div class="card" style="width: 18rem;">
-    <img src="images/carpenter.jpg" class="card-img-top" alt="نجار">
-    <div class="card-body">
-      <h5 class="card-title">علي سعيد</h5>
-      <p class="card-text">نجار</p>
-    </div>
-  </div>
-</div>
-<div class="col-lg-3 col-md-4 d-flex justify-content-center mb-2">
-  <div class="card" style="width: 18rem;">
-    <img src="images/painter.jpg" class="card-img-top" alt="نقاش">
-    <div class="card-body">
-      <h5 class="card-title">سيد عبدالله</h5>
-      <p class="card-text">نقاش</p>
-      
-    </div>
-  </div>
-</div>
+  
+>
+
+<div class="sidebar col-lg-2">
+  <h2>Dashboard</h2>
+  <ul>
+    <li><a href="#" class="active">Add Providers</a></li>
+    <li><a href="#">Services</a></li>
+  </ul>
 </div>
 
+<!-- Page content -->
+<div class="content">
+  <div class="header mb-5">
+    <!-- <button class="openbtn" onclick="toggleSidebar()">☰ Open Sidebar</button>   -->
+    <h2 class="">Hello,Admin</h2>
+  </div>
+  
+  <div class="info row">
+    <div class="card col-lg-3">
+      <h3>Total Users</h3>
+      <p> <i class="fas fa-users"></i>0</p> 
+    </div>
+    <div class="card col-lg-3">
+      <h3>Total requests</h3>
+      <p> <i class="fas fa-envelope"></i>0</p> 
+    </div>    <div class="card col-lg-3">
+      <h3>Total Providers</h3>
+      <p> <i class="fas fa-users"></i>0</p> 
 </div>
-      </div> -->
-
-
 <!-- JavaScript -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
@@ -135,6 +49,6 @@
 
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/all.min.js"></script>
-
+    </main>
 </body>
 </html>

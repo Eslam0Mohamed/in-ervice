@@ -1,46 +1,69 @@
-/* .navbar-center{
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+  }
+  
+  .sidebar h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Main content */
+  .content {
+    margin-left: 250px;
+    padding: 16px;
+  }
+  
+  .header {
+    padding: 16px;
+    background-color: #111;
+    color: white;
+    text-align: center;
+  }
+  
+  .info {
     display: flex;
-    justify-content: center;
-} */
-html {
-    scroll-behavior: smooth;
-}
-.home{
-    background-color:#9ec0f8;
-    /* height: 100vh; */
-}
-.intro-text{
-    color: #000000;
-    font-weight: 400
-}
-.dashboard-data{
-background-color:#f8f9fa;
-transition: 0.5s ease-in;
-}
-.dashboard-data:hover{
-    background-color: orange;
-    transform: scale(1.1);
-}
-.dashboard-data .data-item{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
     justify-content: space-around;
-}
-.dashboard-data .data-item p{
+    /*  */
+  }
+  
+  .card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .card p{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
     font-size: 25px;
-}
-.dashboard-data .data-item span{
-    font-size: 35px;
-}
-.icon{
-    /* color: burlywood; */
-    font-size: 28px;
-}
-.providers{
-    background-color: #eeee;
-}
-/* form{
-    width: 50%;
-    margin:20px auto ;
-} */
+  }
+  .card .fa-users{
+font-size:35px;
+  }
